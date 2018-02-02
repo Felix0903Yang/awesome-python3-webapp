@@ -1,11 +1,12 @@
-#!/usr/bin/env python
-# -*- coding:utf-8 -*-
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
 '''
 Models for user, blog, comment.
 '''
+
+__author__ = 'Michael Liao'
+
 import time, uuid
 
 from orm import Model, StringField, BooleanField, FloatField, TextField
